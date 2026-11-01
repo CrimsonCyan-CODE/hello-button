@@ -1,0 +1,34 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "yourname.hello-button",
+	"name": "Hello Button",
+	"version": "v1.0.0",
+	"developer": "ClaudeTester1",
+	"description": "Adds a button to the main menu that shows a message and counts your clicks.",
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	},
+	"tags": [
+		"utility",
+		"offline"
+	],
+	"settings": {
+		"message": {
+			"type": "string",
+			"name": "Message",
+			"description": "The text shown when you press the button.",
+			"default": "Hello from my first Geode mod!"
+		}
+	},
+	"resources": {
+		"sprites": [
+			"resources/*.png"
+		]
+	}
+}
